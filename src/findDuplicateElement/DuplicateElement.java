@@ -16,7 +16,7 @@ public class DuplicateElement {
             }
         }
         System.out.println("***********************");
-        // 2. use HashMap, HashMap only take the unique value
+        // 2. use HashSet, HashSet only take the unique value
         Set<String>  store = new HashSet<String>();
         for(String names : name){
             if(store.add(names)== false){
